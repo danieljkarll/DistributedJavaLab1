@@ -11,3 +11,24 @@
     color: white;
     padding: 10px
 }
+
+.companionSummary{
+    width: 100%;
+    margin: 0 auto;
+    display:grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.person{
+    width: 50%;
+    align: center;
+    text-align: center;
+    margin: 0 auto;
+    display:grid;
+    grid-template-rows:100px;
+    outline: 5px solid green;
+}
+.center{
+    display: block;
+    margin: 0 auto;
+}
