@@ -1,0 +1,13 @@
+.navigationWrapper{
+    width: 90%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px
+}
+
+.urlNav{
+    background: blue;
+    color: white;
+    padding: 10px
+}
